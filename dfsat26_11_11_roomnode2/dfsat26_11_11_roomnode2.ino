@@ -26,7 +26,7 @@ void setup()
   ldr.mode2(INPUT);
   ldr.digiWrite2(1);
   rf12_initialize(22, RF12_868MHZ, 212);
-  rf12_sleep(-1);
+  rf12_sleep(0);
 }
 
 
